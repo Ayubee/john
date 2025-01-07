@@ -1,0 +1,22 @@
+.footer {
+  padding-top: 4.1rem;
+  //   padding-bottom: 5.4rem;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__social {
+  display: flex;
+  gap: 3.5rem;
+  margin-bottom: 2.6rem;
+}
+.footer__social__link {
+}
+.footer__subtitle {
+  color: $color-1;
+  margin-bottom: 5.4rem;
+}

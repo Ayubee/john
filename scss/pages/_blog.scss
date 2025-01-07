@@ -1,0 +1,40 @@
+.blog__hero {
+}
+.blog__hero__conatiner {
+}
+
+.blog__hero__title {
+  color: $color-1;
+  margin-bottom: 5.5rem;
+}
+
+.blog__hero__box {
+}
+.blog__hero__box__title {
+  color: $color-1;
+}
+.blog__hero__box__date {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6px;
+}
+.blog__hero__box__day {
+}
+.blog__hero__box__divider {
+  width: 1px;
+  height: 21px;
+  background-color: #000000;
+}
+.blog__hero__box__text {
+  color: #8695a4;
+}
+.blog__hero__box__subtitle {
+  color: $color-1;
+  margin-bottom: 2.9rem;
+}
+
+@media screen and (max-width: 550px) {
+  .blog__hero__title {
+    font-size: 2.6rem;
+  }
+}

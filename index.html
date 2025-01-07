@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,14 +9,201 @@
   <body>
     <!-- HEADER START -->
     <header class="header">
-      <div class="container"><p></p></div>
+      <div class="hedaer__container container">
+        <nav class="header__nav">
+          <input id="burger-toggle" type="checkbox" />
+          <label for="burger-toggle">
+            <span></span>
+          </label>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./src/page/works.html" class="nav__link">Works</a>
+            </li>
+            <li class="nav__item">
+              <a href="./src/page/blog.html" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="./src/page/contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- HEADER END -->
     <!-- MAIN START -->
-    <main class="main"></main>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__title text-1">
+              Hi, I am John, <br />
+              Creative Technologist
+            </h1>
+            <p class="hero__subtitle">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <a href="#" class="hero__btn btn">Download Resume</a>
+          </div>
+          <img
+            class="hero__images"
+            src="./src/images/John-Avatar.png"
+            alt="John-Avatar"
+            width="243"
+            height="243"
+          />
+        </div>
+      </section>
+
+      <section class="page">
+        <div class="page__container container">
+          <div class="page__box">
+            <a href="#" class="page__href">Recent posts</a>
+            <a href="#" class="view-all">View all</a>
+          </div>
+          <div class="page__content">
+            <div class="page__content__box">
+              <h3 class="page__content__box__title text-3">
+                Making a design system from <br />
+                scratch
+              </h3>
+              <div class="page__content__box__data">
+                <p class="page__content__box__data__day">12 Feb 2020</p>
+                <div class="page__divider"></div>
+                <p class="page__content__box__data__text">Design, Pattern</p>
+              </div>
+              <p class="page__content__box__subtitle">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div class="page__content__box">
+              <h3 class="page__content__box__title text-3">
+                Creating pixel perfect icons in <br />
+                Figma
+              </h3>
+              <div class="page__content__box__data">
+                <p class="page__content__box__data__day">12 Feb 2020</p>
+                <div class="page__divider"></div>
+                <p class="page__content__box__data__text">Figma, Icon Design</p>
+              </div>
+              <p class="page__content__box__subtitle">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboards">
+        <div class="dashboards__container container">
+          <h4 class="dashboards__subtitle">Featured works</h4>
+          <div class="dashboards__content">
+            <div class="dashboards__content__box">
+              <img
+                class="dashboards__images"
+                src="./src/images/dashboards-images.png"
+                alt=""
+              />
+              <div class="content__box">
+                <h2 class="content__box__title text-2">Designing Dashboards</h2>
+                <div class="dashboards__info">
+                  <p class="dashboards__year">2020</p>
+                  <p class="dashboards__text">Dashboard</p>
+                </div>
+                <p class="dashboard__subtitle">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <div class="dashboards__divider divider"></div>
+            <div class="dashboards__content__box none">
+              <img
+                class="dashboards__images"
+                src="./src/images/dashboards-images__avatar.png"
+                alt=""
+              />
+              <div class="content__box">
+                <h2 class="content__box__title text-2">Designing Dashboards</h2>
+                <div class="dashboards__info">
+                  <p class="dashboards__year">2020</p>
+                  <p class="dashboards__text">Dashboard</p>
+                </div>
+                <p class="dashboard__subtitle">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <div class="dashboards__divider divider none"></div>
+            <div class="dashboards__content__box none">
+              <img
+                class="dashboards__images"
+                src="./src/images/dashboards-images__A.png"
+                alt=""
+              />
+              <div class="content__box">
+                <h2 class="content__box__title text-2">Designing Dashboards</h2>
+                <div class="dashboards__info">
+                  <p class="dashboards__year">2020</p>
+                  <p class="dashboards__text">Dashboard</p>
+                </div>
+                <p class="dashboard__subtitle">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <div class="dashboards__divider divider none"></div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- MAIN END -->
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__social">
+          <a href="" class="footer__social__link">
+            <img
+              src="./src/images/icon-facebook.svg"
+              alt="icon-facebook"
+              width="30"
+              height="30"
+          /></a>
+          <a href="" class="footer__social__link">
+            <img
+              src="./src/images/icon-instagram.svg"
+              alt="icon-facebook"
+              width="30"
+              height="30"
+          /></a>
+          <a href="" class="footer__social__link">
+            <img
+              src="./src/images/icon-twitter.svg"
+              alt="icon-facebook"
+              width="30"
+              height="30"
+          /></a>
+          <a href="" class="footer__social__link">
+            <img
+              src="./src/images/icon-linkedin.svg"
+              alt="icon-facebook"
+              width="30"
+              height="30"
+          /></a>
+        </div>
+        <p class="footer__subtitle">Copyright ©2020 All rights reserved</p>
+      </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>
